@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 public class CrearPDF {
     public void añadirTexto() throws Exception {
         Document document = new Document();
-        String parrafo = "Nombre: ___________________ ";
+        String parrafo = "Apellidos: ___________________ ";
         PdfWriter.getInstance(document, new FileOutputStream("recibo.pdf"));
         document.open();
         document.add(new Paragraph(parrafo));
