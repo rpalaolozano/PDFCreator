@@ -9,7 +9,7 @@ public class CrearPDF {
     public void añadirTexto() throws Exception {
         Document document = new Document();
         String parrafo = "Apellidos: ___________________ ";
-        PdfWriter.getInstance(document, new FileOutputStream("recibo.pdf"));
+        PdfWriter.getInstance(document, new FileOutputStream("formulario.pdf"));
         document.open();
         document.add(new Paragraph(parrafo));
         document.close();
