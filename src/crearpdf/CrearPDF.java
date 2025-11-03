@@ -20,7 +20,7 @@ public class CrearPDF {
             CrearPDF p = new CrearPDF();
             p.añadirTexto();
         } catch (Exception e) {
-            System.out.println(f);
+            System.out.println(n);
         }
     }
 }
